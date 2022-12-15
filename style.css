@@ -2,6 +2,7 @@
   --clr-primary-200: hsl(179, 47%, 51%);
   --clr-primary-400: hsl(179, 62%, 43%);
   --clr-accent-400: hsl(71, 73%, 54%);
+  --clr-accent-600: hsl(71, 73%, 40%);
 
   --clr-neutral-100: hsl(0, 0%, 100%);
   --clr-neutral-200: hsl(204, 43%, 93%);
@@ -132,6 +133,7 @@ h3 {
   row-gap: 1rem;
   padding: 1.5rem 1.5rem;
 }
+
 @media (min-width: 600px) {
   .subscription {
     grid-template-columns: 1fr 1fr;
@@ -143,6 +145,7 @@ h3 {
     padding: 2.5rem;
   }
 }
+
 /* Card 2 styling */
 .fees {
   background-color: var(--clr-primary-400);
@@ -170,6 +173,10 @@ h3 {
   border: none;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
   font-weight: var(--fw-bold);
+}
+
+.button:hover {
+  background-color: var(--clr-accent-600);
 }
 
 /* Card 3 Styling */
